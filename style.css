@@ -3,9 +3,13 @@
     margin: 0;
     padding: 0;
 }
-
-.title-fullname {
-    display: relative;
-    font-size: 40px;
     
+.top-nav a {
+    display: relative; 
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.5vw;
 }
+
+
+
