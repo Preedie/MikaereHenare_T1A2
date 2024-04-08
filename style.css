@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+
+#profPicContainer {
+    display: flex;
+}
     
 .top-nav a {
     display: relative; 
@@ -11,8 +15,12 @@
     font-size: 1.5vw;
 }
 
-.profilePic {
-    width: 13.7vw;
-    height: 14.3vw;
-    border-radius: 3%;
+.mainProfPic {
+    display: flex;
+    justify-content: flex-end;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 90%;
 }
+
+
