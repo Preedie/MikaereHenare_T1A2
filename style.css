@@ -20,7 +20,7 @@ body {
 header {
     grid: nowrap;
     font-weight: bold;
-    color: black;
+    color: rgb(8, 8, 8);
     text-align: top;
     text-align: center;
     grid-column: 3;
@@ -28,6 +28,8 @@ header {
 }
 
 .profilePic {
+    border-style: solid;
+    border-width: 1px;
     width: 30vw;
     grid-column: 3;
     grid-row: 2;
@@ -44,7 +46,7 @@ nav {
 
 main {
     font-style: italic;
-    color: rgb(0, 0, 0);    
+    color: rgb(255, 255, 255);    
     grid-column: 1 / -1;
     text-align: center;
     
