@@ -4,23 +4,43 @@
     padding: 0;
 }
 
-#profPicContainer {
-    display: flex;
-}
-    
-.top-nav a {
-    display: relative; 
-    font-weight: bold;
-    font-style: italic;
-    font-size: 1.5vw;
+.wrapper {
+    width: 100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-row: 1fr 1fr 1fr 1fr 1fr;
 }
 
-.mainProfPic {
-    display: flex;
-    justify-content: flex-end;
-    width: 20vw;
-    height: 20vw;
-    border-radius: 90%;
+.profilePic {
+    width: 100%;
+    height: 35vw;
+    grid-column: 1;
+    grid-row: 3;
 }
+
+header {
+    background: grey;
+    grid-column: 1 / -1;
+    grid-row: 2;
+}
+
+nav {
+    background: grey;
+    grid-column: 1 / -1;
+    grid-row: 1;
+}
+
+main {
+    background: grey;
+    grid-column: 2 / -1;
+}
+
+footer {
+    background: gray;
+    /* grid-row: 2 / 3; */
+    grid-column: 1 /-1;
+    grid-row-gap: 1rem;
+}
+
 
 
