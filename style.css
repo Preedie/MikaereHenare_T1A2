@@ -9,24 +9,24 @@ body {
     background-size: 100vw 100vh;
 }
 
-/* This bad boy is going to wrap nav/head/main/footer 
-so its all in a nice container to move around later 
-with grid to improve layout */
+/* container for anything in body */
 .wrapper {
     width:  100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-row: 10% 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr 1fr 1fr;
+}
+
+.header-background {
+    background-color: black;
 }
 
 header {
-    grid: nowrap;
     font-weight: bold;
     color: rgb(8, 8, 8);
-    text-align: top;
     text-align: center;
-    grid-column: 3;
+    grid-column: 2;
     grid-row: 2;
 }
 
@@ -35,12 +35,11 @@ so i can move it around in grid for layout*/
 .profilePic {
     border-style: solid;
     border-width: 1px;
-    width: 30vw;
-    height: 30vh;
-    grid-column: 3;
+    width: 35vw;
+    height: 45vh;
+    grid-column: 2;
     grid-row: 2;
     border-radius: 50%;
-    height: 35vh
 }
 
 nav {
@@ -51,10 +50,10 @@ nav {
 }
 
 main {
-    font-style: italic;
-    color: rgb(255, 255, 255);    
-    grid-column: 1 / -1;
+    color: black;    
+    grid-column: 2;
     text-align: center;
+    font-weight: bold;
     
 }
 
@@ -63,11 +62,6 @@ footer {
     color: rgb(255, 255, 255);   
     text-align: center;
     grid-column: 1 /-1;
-    grid-row-gap: 1rem;
+    align-self: end;
 }
 
-/* this container will hold all my links to 
-socials so i can once again move them around later */
-link-container {
-    display: grid;
-}
