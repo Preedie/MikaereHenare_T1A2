@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
 </head>
     <body>
         <div class="wrapper">
@@ -22,14 +25,38 @@
                             <h1>Contact Me</h1>
                     </header>
                 <main>
-              <div>Insert links to socials</div>
+                <!-- container for links and each given 
+                    a class so I can change the layout if need be -->
+              <!-- <div class="link-button-container">
+             <a class="link-btn1" href="https://www.instagram.com//">Instagram</a>
+             <a class="link-btn2" href="https://au.linkedin.com/">Linkedin</a>
+              <a class="link-btn3" href="https://github.com/">Github</a>
+              <a class="link-btn4" href="https://www.facebook.com/">Facebook</a> -->
+              <button type="button" class="btn1">
+              <span class="button-text">Instagram</span>
+              <span class="button-icon"></span>
+              <ion-icon name="logo-instagram"></ion-icon>
+              </button>
+              <button type="button" class="btn1">
+                <span class="button-text">Facebook</span>
+                <span class="button-icon"></span>
+                <ion-icon name="logo-facebook"></ion-icon>
+                </button>
+                <button type="button" class="btn1">
+                    <span class="button-text">Linkedin</span>
+                    <span class="button-icon"></span>
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                    </button>
+                    <button type="button" class="btn1">
+                        <span class="button-text">Github</span>
+                        <span class="button-icon"></span>
+                        <ion-icon name="logo-github"></ion-icon>
+                        </button>
                 </main>
             <footer>    
-                    <a href="https://www.instagram.com//">Instagram</a>
-                    <a href="https://au.linkedin.com/">Linkedin</a>
-                    <a href="https://github.com/">Github</a>
-                    <a href="https://www.facebook.com/">Facebook</a>
             </footer>
         </div>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </body>
 </html>
