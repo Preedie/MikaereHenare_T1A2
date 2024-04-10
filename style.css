@@ -9,6 +9,9 @@ body {
     background-size: 100vw 100vh;
 }
 
+/* This bad boy is going to wrap nav/head/main/footer 
+so its all in a nice container to move around later 
+with grid to improve layout */
 .wrapper {
     width:  100vw;
     height: 100vh;
@@ -27,14 +30,16 @@ header {
     grid-row: 2;
 }
 
+/* container for my beautiful face 
+so i can move it around in grid for layout*/
 .profilePic {
     border-style: solid;
     border-width: 1px;
-    width: 30vw;
+    width: 25vw;
     grid-column: 3;
     grid-row: 2;
     border-radius: 50%;
-    height: 25vh
+    height: 35vh
 }
 
 nav {
@@ -58,6 +63,12 @@ footer {
     text-align: center;
     grid-column: 1 /-1;
     grid-row-gap: 1rem;
+}
+
+/* this container will hold all my links to 
+socials so i can once again move them around later */
+link-container {
+    display: grid;
 }
 
 

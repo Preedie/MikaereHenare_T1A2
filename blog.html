@@ -7,22 +7,42 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <body>
-        <div class="wrapper">
-            <!-- <img class="profilePic" src="./Images/MikaereHenare.jpg" alt="picture of Mikaere"> -->
-                <nav>
-                    <a href="home.html">Home</a>
-                        <a href="about-professional.html">About</a>
-                        <a href="contact.html">Contact</a>
-                        <a href="about-me.html">About Me</a>
-                        <a href="blog.html">Blog</a>
-                </nav>
-                    <header>      
-                            <h1>Blog</h1>
-                    </header>
+        <div class="wrapper"> <!-- Using this wrapper as a large container 
+            to style the page head/nav/main/footer with grid-->
+                <section>    
+                    <nav>
+                        <!-- once again creating a container for my links for layout later-->
+                        <a href="home.html">Home</a>
+                            <a href="about-professional.html">About</a>
+                            <a href="contact.html">Contact</a>
+                            <a href="about-me.html">About Me</a>
+                            <a href="blog.html">Blog</a>
+                    </nav>
+                <header>      
+                    <h1>Blog</h1>
+                </header>
                 <main>
-              insert blog
+                    <!-- nesting a div container for my blog
+                        elements so later i can move them around inside via grid/flexbox
+                    for a better layout design-->
+                    <article>
+                        <div class="blog-sections">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </article>
                 </main>
-            <footer>my job is to hold links</footer>
+            <footer>
+                <div class="link-container">
+                    <div>My <a href="https://au.linkedin.com/">Instagram</a></div>
+                    <div>My <a href="https://au.linkedin.com/">Linkedin</a></div>
+                    <div>My <a href="https://au.linkedin.com/">Github</a></div>
+                    <div>My <a href="https://au.linkedin.com/">Email</a></div>
+                </div>
+            </footer>
+        </section>
         </div>
     </body>
 </html>
