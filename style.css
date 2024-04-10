@@ -35,7 +35,8 @@ so i can move it around in grid for layout*/
 .profilePic {
     border-style: solid;
     border-width: 1px;
-    width: 25vw;
+    width: 30vw;
+    height: 30vh;
     grid-column: 3;
     grid-row: 2;
     border-radius: 50%;
