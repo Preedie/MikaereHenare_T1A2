@@ -16,6 +16,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-row: 1fr 1fr 1fr;
+
 }
 
 .header-background {
@@ -87,7 +88,7 @@ footer {
     cursor: pointer;
     padding: 0;
     transition-duration: 500ms;
-    overflow: fit;
+    overflow: hidden;
     font-size: 16px;
     font-weight: 400;
 } 
@@ -128,6 +129,11 @@ footer {
  .taco-pic4 {
     height: 50%;
     width: 50%;
+    border-radius: 50%;
+ }
+
+ .taco-pic5 {
+    height: 20vh;
     border-radius: 50%;
  }
 
