@@ -1,3 +1,8 @@
+# Mikaere Henare
+
+
+
+
 # My First Webpage Project
 
 My main objective throughout the project is to implement the learnt techniques during the inital phase of my journey to learning how to build a web page.
@@ -18,4 +23,7 @@ the color scheme was chosen as it fit nicely with the overall color scheme of th
 
 The pages are completely responsive to mobile and desktop enviroments which will be noticable when or if the user decides to shrink or increase the size of the browser window (in any direction).
 
-![wireframe]
+![wireframe](Images/webpage-wireframe.PNG)
+
+# Target Audience
+
