@@ -30,7 +30,6 @@ header {
     grid-column: 2;
     grid-row: 1;
 }
-
 /* container for my beautiful face 
 so i can move it around in grid for layout*/
 .profilePic {
@@ -75,33 +74,40 @@ footer {
     }
 }
 
- button {
+/* container for the buttons and the text/icons within */
+.btn { 
     display: inline-flex;
-    height: 30px;
+    height:25px;
     font-family: "Pixelify Sans", sans-serif;
-    padding: 0.75% 3em;
+    padding: 0;
     background: rgb(250, 186, 179);
     border: 0.1em solid rgb(117, 90, 235);
+    outline: none;
     border-radius: 10%;
     cursor: pointer;
-    padding: 0.1em 0.5em;
+    padding: 0;
     transition-duration: 500ms;
     overflow: hidden;
- }
+    font-size: 16px;
+    font-weight: 400;
+} 
 
- button:hover{
-    background: rgb(117, 90, 235);
- }
+.btn:hover{
+    background: rgb(129, 108, 221);
+}
 
- .button-text, .button-icon {
+.btn:active{
+    background: rgb(86, 63, 218);
+}
+
+.button-text, .button-icon {
     font-family: "Pixelify Sans", sans-serif;
     display: inline-flex;
     align-items: center;
-    font-size: 24px;
-    padding: 0 15px;
-    color: rgb(0, 0, 0);
+    padding: 0 2px;
     height: 100%;
  }
+
 
 
 
