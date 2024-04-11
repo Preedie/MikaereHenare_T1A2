@@ -31,17 +31,23 @@ header {
     grid-column: 2;
     grid-row: 1;
 }
-/* container for my beautiful face 
-so i can move it around in grid for layout*/
+
+
+
+
+
+/* You will notice that if you resize the webpage to be smaller the text will  
+overlap the profile picture this is intended as anything that does overlap 
+the picture is styled so its still readable and i personally preferred the way it looked. */
 .profilePic {
     align-self: center;
     border-style: solid;
     border-width: 1px;
     width: 35vw;
-    height: 20vw;
+    height: 35vw;
     grid-column: 2;
     grid-row: 1;
-    border-radius: 50%;
+    border-radius: 5%;
 }
 
 nav {
@@ -69,13 +75,16 @@ footer {
     align-self: end;
 }
 
+/* the below media request is to make the webpage more resposive at the 400px 
+state and below as the text was just far too large, as pointless as it may seem I just preferred 
+the footer and navbar text to not eat everything on the page below 400px */
 @media only screen and (max-width: 400px) {
     nav, footer, header {
         font-size: 10px;
     }
 }
 
-/* container for the buttons and the text/icons within */
+/* container for the buttons and the text/icons/effects within the blog nav and contact pages. */
 .btn { 
     display: inline-flex;
     height: 25px;
@@ -137,5 +146,8 @@ footer {
     border-radius: 50%;
  }
 
+ /* My goal with sizing throughout this CSS was to use as little media reqs 
+ and try to mostly make the webpage responsive through not assigning sizines with pixels
+ however some places do require pixels, ultimately not many though. */
 
 
