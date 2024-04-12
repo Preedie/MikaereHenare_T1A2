@@ -4,12 +4,14 @@
     padding: 0;
 }
 
+/* img for the background */
+
 body {
     background-image: url(/Images/Backgroundimg.png);
     background-size: 100vw 100vh;
 }
 
-/* container for anything in body */
+/* container for anything everything in body as it's the main grid */
 .wrapper {
     width:  100vw;
     height: 100vh;
@@ -23,6 +25,8 @@ body {
     background-color: black;
 }
 
+/* styling for header */
+
 header {
     font-family: "Pixelify Sans", sans-serif;
     color: rgb(8, 8, 8);
@@ -31,10 +35,6 @@ header {
     grid-column: 2;
     grid-row: 1;
 }
-
-
-
-
 
 /* You will notice that if you resize the webpage to be smaller the text will  
 overlap the profile picture this is intended as anything that does overlap 
@@ -49,6 +49,8 @@ the picture is styled so its still readable and i personally preferred the way i
     grid-row: 1;
     border-radius: 5%;
 }
+
+/* styling for navbar */
 
 nav {
     font-family: "Pixelify Sans", sans-serif;
@@ -102,6 +104,8 @@ the footer and navbar text to not eat everything on the page below 400px */
     font-weight: 400;
 } 
 
+/* button effects below */
+
 .btn:hover{
     background: rgb(129, 108, 221);
 }
@@ -117,6 +121,8 @@ the footer and navbar text to not eat everything on the page below 400px */
     padding: 0 2px;
     height: 100%;
  }
+
+/* Pictures sized for blogs 1 - 5 */
 
  .taco-pic1 {
     height: 50%;
